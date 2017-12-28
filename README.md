@@ -2,9 +2,8 @@
 PC版本网页前端开发小助手
 
 # 使用说明
-  <script type="text/javascript" src="/您的引入的路径/QcWind.js"></script>
-  <br/>
-  <script type="text/javascript">
+  <script type="text/javascript" src="/您的引入的路径/QcWind.js"></script>
+  <br/><script type="text/javascript">
 	QcWind.ready(function(){
 		//您需要做的操作,类似于Jquery.ready
 	});
