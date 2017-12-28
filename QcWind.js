@@ -113,9 +113,7 @@
             var args = Array.prototype.slice.apply(arguments);args.splice(0,1);
             for(var o in a){
                 if(!this.isFunction(a[o])) continue;
-                this[o] = function(){
-                    a[o].apply(null,args);
-                };
+                this[o] = a[o];
             }
           if(!this.isJson(b) || b==undefined) return;
           for(var o in b){

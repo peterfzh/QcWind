@@ -7,16 +7,22 @@
 </head>
 <body>
 <script type="text/javascript">
-	var asad = {
-		newfun:function(){
-			alert("aaaaaaaaaaaa");
+	var myExtend = {
+		//求两个数的和
+		sums:function(a,b){
+			alert(a+b);
+		},
+		//求两个数的差
+		diff:function(a,b){
+			alert(a-b);
 		}
 	};
-	QcWind.extend(asad,null);
+	QcWind.extend(myExtend,{});
 	
 	QcWind.ready(function(){
-		alert("页面加载完成了.");
-		QcWind.newfun();
+		// alert("页面加载完成了.");
+		QcWind.sums(3,4);
+		QcWind.diff(12,6);
 	});
 
 </script>
