@@ -167,7 +167,6 @@
             else{
               if(arguments.length<2 || !this.isFunction(arguments[1])) return;
             }
-         
         },
         plusin:function(){
             if(u.call(m,"alert")){  
