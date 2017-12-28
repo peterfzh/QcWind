@@ -11,16 +11,11 @@ ________________________________________________________
 
 #### 2.类似Jquery的加载完成事件
 
-  <script type="text/javascript">    
-
-
-    QcWind.ready(function(){
-
-		//您需要做的操作,类似于Jquery.ready
-
-	});
-
-   </script>
+> <script type="text/javascript">    
+>  QcWind.ready(function(){
+>    您需要做的操作,类似于Jquery.ready
+>  });
+>  </script>
 
 ________________________________________________________
 
