@@ -30,7 +30,7 @@ var myExtend = {
 	sum:function(a,b){
 		alert(a+b);
 	},
-	//求连个数的差
+	//求两个数的差
 	diff:function(a,b){
 		alert(a-b);
 	}
