@@ -6,10 +6,12 @@ PC版本网页前端开发小助手
   
   <script type="text/javascript" src="/您的引入的路径/QcWind.js"></script>
 
+  -----
+
   2.类似Jquery的加载完成事件
 
   <script type="text/javascript">    
-  	
+
 
     QcWind.ready(function(){
 
