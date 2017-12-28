@@ -2,7 +2,9 @@
 PC版本网页前端开发小助手
 
 # 使用说明
-<script type="text/javascript" src="../QcWind.js"></script>
+<script type="text/javascript" src="/您的引入的路径/QcWind.js"></script>
+
+
 
 
 # 版本1.0.0.1 自动引入jquery2.1.4
