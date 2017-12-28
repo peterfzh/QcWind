@@ -110,20 +110,16 @@
         },
         extend:function(a,b){/*拓展类型数据*/
           if(!this.isJson(a) || arguments.length<2) return;
-          if(a.length>0){
-              var args = Array.prototype.slice.apply(arguments);args.splice(0,1);
-              for(var o in a){
-                  if(!this.isFunction(a[o])) continue;
-                  this[o] = function(){
-                      a[o].apply(null,args);
-                  };
-              }
-          }
-          else{
-            if(!this.isJson(b) || b==undefined) return;
-            for(var o in b){
-              this.config[o] =b[o];
+            var args = Array.prototype.slice.apply(arguments);args.splice(0,1);
+            for(var o in a){
+                if(!this.isFunction(a[o])) continue;
+                this[o] = function(){
+                    a[o].apply(null,args);
+                };
             }
+          if(!this.isJson(b) || b==undefined) return;
+          for(var o in b){
+            this.config[o] =b[o];
           }
         },
         get:function(){/*加载远程的script脚本*/

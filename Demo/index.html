@@ -7,9 +7,18 @@
 </head>
 <body>
 <script type="text/javascript">
-	QcWind.jQuery(function(){
-		
+	var asad = {
+		newfun:function(){
+			alert("aaaaaaaaaaaa");
+		}
+	};
+	QcWind.extend(asad,null);
+	
+	QcWind.ready(function(){
+		alert("页面加载完成了.");
+		QcWind.newfun();
 	});
+
 </script>
 	
 </body>
