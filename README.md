@@ -35,6 +35,7 @@ var myExtend = {
 		alert(a-b);
 	}
 };
+
 * 2.将对象拓展到QcWind中
 QcWind.extend(myExtend,{});
 
