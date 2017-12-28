@@ -9,7 +9,7 @@ ________________________________________________________
   <script type="text/javascript" src="/您的引入的路径/QcWind.js"></script>
 
 #### 2.使用说明
-* ##### 当页面加载完成的时候需要运行的操作  
+* ###### 当页面加载完成的时候需要运行的操作  
 ~~~java
 QcWind.ready(function(){  
     //您需要做的操作,类似于Jquery.ready  
