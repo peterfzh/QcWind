@@ -7,8 +7,10 @@ ________________________________________________________
 #### 1.下载QcWind到您的Web项目中，然后再使用的页面内加上如下的引用
 
 ~~~java
-  <script type="text/javascript" src="/您的引入的路径/QcWind.js"></script>
+  <script type="text/javascript" src="/您的引入的路径/QcWind.js?参数"></script>
 ~~~
+* 参数  
+	* alert=1 系统自动引入layer.js并且转义alert的ui模型
 
 #### 2.使用说明
 ~~~java
